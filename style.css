@@ -1,0 +1,80 @@
+button {
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+button:hover {
+    background-color: blueviolet;
+}
+.my-class {
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+    transition-duration: 5s;
+
+
+}
+#para {
+    color: darkcyan;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 50px;
+    color: black;
+}
+
+
+
+.my-class:hover {
+    width:600px;
+    transition-duration: 5s;
+}
+@media screen and (min-width:200px) and (max-width:400px) {
+    p {
+        background-color:black;
+
+    }
+    .my-class {
+        background-color: crimson;
+        width: 100%;
+    }
+    button {
+        width: 100%;
+        background-color: darkmagenta;
+    }
+    
+}
+
+ .my-gri {
+    height: 200px;
+    width:200px;
+    background-color: brown;
+    border-radius: 50%;
+    animation-name: my-gri;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes my-gri {
+    0% { background-color: black;}
+    25% { background-color:aquamarine;}
+    50% { background-color:chartreuse;}
+    100% { background-color:crimson;}
+}
+ @keyframes my-gri {
+    0% { transform: translateX(200px);}
+    25% { transform: translateY(100);}
+    50% { transform: translateX(50px);}
+    90% { transform: translateY(300px);}
+    100% { transform: translateX(200px);}
+} 
+
+.my {
+    height: 50px;
+    width:100px;
+    background-color: brown;
+    border: 2px greenyellow;
+    border-radius: 10px;
+
+}
